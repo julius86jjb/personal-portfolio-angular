@@ -23,7 +23,7 @@ export class PersonalPortfolioComponent {
             id: 1,
             name: 'amelia smith',
             role: 'Founder of Alpha Design',
-            thumbnail: '/assets/images/personal-portfolio/founder-avatar.png',
+            thumbnail: '../assets/images/personal-portfolio/founder-avatar.png',
             message:
                 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.',
         },

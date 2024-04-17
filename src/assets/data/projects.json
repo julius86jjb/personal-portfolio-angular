@@ -18,12 +18,12 @@
             "Infinite Scroll",
             "Animations"
         ],
-        "img_dest": "/assets/images/projects/cine1.png",
-        "banner": "/assets/images/projects/cine1.png",
+        "img_dest": "../../assets/images/projects/cine1.png",
+        "banner": "../../assets/images/projects/cine1.png",
         "imgs": [
-            "/assets/images/projects/cine2.png",
-            "/assets/images/projects/cine3.png",
-            "/assets/images/projects/cine4.png"
+            "../../assets/images/projects/cine2.png",
+            "../../assets/images/projects/cine3.png",
+            "../../assets/images/projects/cine4.png"
         ],
         "year": "2019",
         "course": "Angular de cero a experto creando aplicaciones - Fernando Herrera",
@@ -71,12 +71,12 @@
             "Deployment",
             "MongoAltas"
         ],
-        "img_dest": "/assets/images/projects/admin2023-dest.png",
-        "banner": "/assets/images/projects/admin2023-dest.png",
+        "img_dest": "../../assets/images/projects/admin2023-dest.png",
+        "banner": "../../assets/images/projects/admin2023-dest.png",
         "imgs": [
-            "/assets/images/projects/admin2023_1.png",
-            "/assets/images/projects/admin2023_2.png",
-            "/assets/images/projects/admin2023_3.png"
+            "../../assets/images/projects/admin2023_1.png",
+            "../../assets/images/projects/admin2023_2.png",
+            "../../assets/images/projects/admin2023_3.png"
         ],
         "year": "2023",
         "categories": [
@@ -108,11 +108,11 @@
             "Modals",
             "SweetAlert2"
         ],
-        "img_dest": "/assets/images/projects/youtube1.png",
-        "banner": "/assets/images/projects/youtube1.png",
+        "img_dest": "../../assets/images/projects/youtube1.png",
+        "banner": "../../assets/images/projects/youtube1.png",
         "imgs": [
-            "/assets/images/projects/youtube2.png",
-            "/assets/images/projects/youtube3.png"
+            "../../assets/images/projects/youtube2.png",
+            "../../assets/images/projects/youtube3.png"
         ],
         "year": "2019",
         "course": "Angular de cero a experto creando aplicaciones - Fernando Herrera",
@@ -149,13 +149,13 @@
             "Interceptors",
             "RxJS Operators"
         ],
-        "img_dest": "/assets/images/projects/contact-list1.png",
-        "banner": "/assets/images/projects/contact-list1.png",
+        "img_dest": "../../assets/images/projects/contact-list1.png",
+        "banner": "../../assets/images/projects/contact-list1.png",
         "imgs": [
-            "/assets/images/projects/contact-list2.png",
-            "/assets/images/projects/contact-list4.png",
-            "/assets/images/projects/contact-list5.png",
-            "/assets/images/projects/contact-list3.png"
+            "../../assets/images/projects/contact-list2.png",
+            "../../assets/images/projects/contact-list4.png",
+            "../../assets/images/projects/contact-list5.png",
+            "../../assets/images/projects/contact-list3.png"
         ],
         "year": "2020",
         "course": "Bundle Angular Pro · Enrique Oriol",
@@ -203,14 +203,14 @@
             "Deployment",
             "MongoAltas"
         ],
-        "img_dest": "/assets/images/projects/mean2019-1.png",
-        "banner": "/assets/images/projects/mean2019-1.png",
+        "img_dest": "../../assets/images/projects/mean2019-1.png",
+        "banner": "../../assets/images/projects/mean2019-1.png",
         "imgs": [
-            "/assets/images/projects/mean2019-5.png",
-            "/assets/images/projects/mean2019-2.png",
-            "/assets/images/projects/mean2019-3.png",
-            "/assets/images/projects/mean2019-4.png",
-            "/assets/images/projects/mean2019-6.png"
+            "../../assets/images/projects/mean2019-5.png",
+            "../../assets/images/projects/mean2019-2.png",
+            "../../assets/images/projects/mean2019-3.png",
+            "../../assets/images/projects/mean2019-4.png",
+            "../../assets/images/projects/mean2019-6.png"
         ],
         "year": "2019",
         "categories": [
@@ -247,11 +247,11 @@
             "Components reuse",
             "HTTP request optimizations"
         ],
-        "img_dest": "/assets/images/projects/restcountry1.png",
-        "banner": "/assets/images/projects/restcountry1.png",
+        "img_dest": "../../assets/images/projects/restcountry1.png",
+        "banner": "../../assets/images/projects/restcountry1.png",
         "imgs": [
-            "/assets/images/projects/restcountry2.png",
-            "/assets/images/projects/restcountry3.png"
+            "../../assets/images/projects/restcountry2.png",
+            "../../assets/images/projects/restcountry3.png"
         ],
         "year": "2023",
         "course": "Angular: De cero a experto: Edición 2023 - Fernando Herrera",
@@ -282,12 +282,12 @@
             "FormGroup",
             "FormArray"
         ],
-        "img_dest": "/assets/images/projects/forms1.png",
-        "banner": "/assets/images/projects/forms1.png",
+        "img_dest": "../../assets/images/projects/forms1.png",
+        "banner": "../../assets/images/projects/forms1.png",
         "imgs": [
-            "/assets/images/projects/forms2.png",
-            "/assets/images/projects/forms3.png",
-            "/assets/images/projects/forms4.png"
+            "../../assets/images/projects/forms2.png",
+            "../../assets/images/projects/forms3.png",
+            "../../assets/images/projects/forms4.png"
         ],
         "year": "2023",
         "course": "Angular: De cero a experto: Edición 2023 - Fernando Herrera",
@@ -324,15 +324,15 @@
             "Dialogs",
             "Injection of services manually"
         ],
-        "img_dest": "/assets/images/projects/heroes1.png",
-        "banner": "/assets/images/projects/heroes1.png",
+        "img_dest": "../../assets/images/projects/heroes1.png",
+        "banner": "../../assets/images/projects/heroes1.png",
         "imgs": [
-            "/assets/images/projects/heroes2.png",
-            "/assets/images/projects/heroes3.png",
-            "/assets/images/projects/heroes4.png",
-            "/assets/images/projects/heroes5.png",
-            "/assets/images/projects/heroes6.png",
-            "/assets/images/projects/heroes8.png"
+            "../../assets/images/projects/heroes2.png",
+            "../../assets/images/projects/heroes3.png",
+            "../../assets/images/projects/heroes4.png",
+            "../../assets/images/projects/heroes5.png",
+            "../../assets/images/projects/heroes6.png",
+            "../../assets/images/projects/heroes8.png"
         ],
         "year": "2023",
         "course": "Angular: De cero a experto: Edición 2023 - Fernando Herrera",
@@ -358,12 +358,12 @@
             "Chaining of RXJS operators",
             "map, tap, switchMap, filter, combineLatest "
         ],
-        "img_dest": "/assets/images/projects/selectors1.png",
-        "banner": "/assets/images/projects/selectors1.png",
+        "img_dest": "../../assets/images/projects/selectors1.png",
+        "banner": "../../assets/images/projects/selectors1.png",
         "imgs": [
-            "/assets/images/projects/selectors2.png",
-            "/assets/images/projects/selectors3.png",
-            "/assets/images/projects/selectors4.png"
+            "../../assets/images/projects/selectors2.png",
+            "../../assets/images/projects/selectors3.png",
+            "../../assets/images/projects/selectors4.png"
         ],
         "year": "2023",
         "course": "Angular: De cero a experto: Edición 2023 - Fernando Herrera",
@@ -396,11 +396,11 @@
             "Zoom",
             "Range"
         ],
-        "img_dest": "/assets/images/projects/map1.png",
-        "banner": "/assets/images/projects/map1.png",
+        "img_dest": "../../assets/images/projects/map1.png",
+        "banner": "../../assets/images/projects/map1.png",
         "imgs": [
-            "/assets/images/projects/map2.png",
-            "/assets/images/projects/map3.png"
+            "../../assets/images/projects/map2.png",
+            "../../assets/images/projects/map3.png"
         ],
         "year": "2023",
         "course": "Angular: De cero a experto: Edición 2023 - Fernando Herrera",
@@ -441,12 +441,12 @@
             "Clean Architecture - Clean Code",
             "Custom Pipes"
         ],
-        "img_dest": "/assets/images/projects/ecommerce1.png",
-        "banner": "/assets/images/projects/ecommerce1.png",
+        "img_dest": "../../assets/images/projects/ecommerce1.png",
+        "banner": "../../assets/images/projects/ecommerce1.png",
         "imgs": [
-            "/assets/images/projects/ecommerce2.png",
-            "/assets/images/projects/ecommerce3.png",
-            "/assets/images/projects/ecommerce4.png"
+            "../../assets/images/projects/ecommerce2.png",
+            "../../assets/images/projects/ecommerce3.png",
+            "../../assets/images/projects/ecommerce4.png"
         ],
         "year": "2024",
         "categories": [
@@ -494,12 +494,12 @@
             "Postman",
             "TablePlus"
         ],
-        "img_dest": "/assets/images/projects/teslo-shop1.png",
-        "banner": "/assets/images/projects/teslo-shop1.png",
+        "img_dest": "../../assets/images/projects/teslo-shop1.png",
+        "banner": "../../assets/images/projects/teslo-shop1.png",
         "imgs": [
-            "/assets/images/projects/teslo-shop2.png",
-            "/assets/images/projects/teslo-shop3.jpg",
-            "/assets/images/projects/teslo-shop4.jpg"
+            "../../assets/images/projects/teslo-shop2.png",
+            "../../assets/images/projects/teslo-shop3.jpg",
+            "../../assets/images/projects/teslo-shop4.jpg"
         ],
         "year": "2024",
         "categories": [
@@ -546,14 +546,14 @@
             "Http Headers",
             "Error handling"
         ],
-        "img_dest": "/assets/images/projects/angulargpt7.png",
-        "banner": "/assets/images/projects/angulargpt7.png",
+        "img_dest": "../../assets/images/projects/angulargpt7.png",
+        "banner": "../../assets/images/projects/angulargpt7.png",
         "imgs": [
-            "/assets/images/projects/angulargpt2.png",
-            "/assets/images/projects/angulargpt3.png",
-            "/assets/images/projects/angulargpt4.png",
-            "/assets/images/projects/angulargpt5.png",
-            "/assets/images/projects/angulargpt6.png"
+            "../../assets/images/projects/angulargpt2.png",
+            "../../assets/images/projects/angulargpt3.png",
+            "../../assets/images/projects/angulargpt4.png",
+            "../../assets/images/projects/angulargpt5.png",
+            "../../assets/images/projects/angulargpt6.png"
         ],
         "year": "2024",
         "categories": [
