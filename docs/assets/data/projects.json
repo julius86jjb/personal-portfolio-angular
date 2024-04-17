@@ -1,0 +1,570 @@
+[
+    {
+        "id": 1,
+        "title": "Cartelera Cine",
+        "description": "We work with a very popular API called TheMovieDB API, to make a movie search application where we touch on topics such as routes, http requests, observables, modules, services, etc..",
+        "main_technologies": [
+            "Angular"
+        ],
+        "tags": [
+            "Http Requests",
+            "Modules",
+            "Observables",
+            "Routes",
+            "RxJS Operators",
+            "Services",
+            "Error handling",
+            "Search Engine",
+            "Infinite Scroll",
+            "Animations"
+        ],
+        "img_dest": "/assets/images/projects/cine1.png",
+        "banner": "/assets/images/projects/cine1.png",
+        "imgs": [
+            "/assets/images/projects/cine2.png",
+            "/assets/images/projects/cine3.png",
+            "/assets/images/projects/cine4.png"
+        ],
+        "year": "2019",
+        "course": "Angular de cero a experto creando aplicaciones - Fernando Herrera",
+        "categories": [
+            "mini-apps",
+            "all"
+        ],
+        "links": {
+            "web_link": "https://julius86jjb.github.io/angular-peliculas-app/",
+            "github": "https://github.com/julius86jjb/angular-peliculas-app"
+        }
+    },
+    {
+        "id": 2,
+        "title": "Admin Panel Stater",
+        "description": "We work with a very popular API called TheMovieDB API, to make a movie search application where we touch on topics such as routes, http requests, observables, modules, services, etc..",
+        "main_technologies": [
+            "Angular",
+            "NestJS",
+            "MongoDB",
+            "NodeJS",
+            "Express"
+        ],
+        "tags": [
+            "Clean Architecture - Clean Code",
+            "SOLID - DRY",
+            "Authentication Handling",
+            "User Roles",
+            "External API RestCountry",
+            "Real-Time Forms Validations",
+            "Pipes",
+            "Signals / Effects",
+            "Functional Guards",
+            "Animations",
+            "Pagination",
+            "Environments",
+            "CRUD",
+            "DTO",
+            "JWT",
+            "Interfaces",
+            "SweetAlert",
+            "Http Headers",
+            "Error handling",
+            "Search Engine",
+            "Deployment",
+            "MongoAltas"
+        ],
+        "img_dest": "/assets/images/projects/admin2023-dest.png",
+        "banner": "/assets/images/projects/admin2023-dest.png",
+        "imgs": [
+            "/assets/images/projects/admin2023_1.png",
+            "/assets/images/projects/admin2023_2.png",
+            "/assets/images/projects/admin2023_3.png"
+        ],
+        "year": "2023",
+        "categories": [
+            "own-applications",
+            "all"
+        ],
+        "links": {
+            "web_link": "https://admin-dashboard-frontend-angular.netlify.app/",
+            "github": "https://github.com/julius86jjb/starter-frontend-admin-Angular",
+            "github_backend": "https://github.com/julius86jjb/starter-backend-admin_NEST",
+            "backend_link": "https://backend-nest-admin-dashboard.onrender.com"
+        }
+    },
+    {
+        "id": 3,
+        "title": "Youtube API",
+        "description": "We work with the Youtube API through the google developer console portal creating an API KEY, restricting privileges and access to certain domains. Data typing to API responses",
+        "main_technologies": [
+            "Angular"
+        ],
+        "tags": [
+            "Http Requests",
+            "Models",
+            "Data Typing",
+            "Tokens",
+            "Services",
+            "RxJS Operators",
+            "Pagination",
+            "Modals",
+            "SweetAlert2"
+        ],
+        "img_dest": "/assets/images/projects/youtube1.png",
+        "banner": "/assets/images/projects/youtube1.png",
+        "imgs": [
+            "/assets/images/projects/youtube2.png",
+            "/assets/images/projects/youtube3.png"
+        ],
+        "year": "2019",
+        "course": "Angular de cero a experto creando aplicaciones - Fernando Herrera",
+        "categories": [
+            "mini-apps",
+            "all"
+        ],
+        "links": {
+            "web_link": "https://youtube-app-api.netlify.app/",
+            "github": "https://github.com/julius86jjb/angular-youtube-API"
+        }
+    },
+    {
+        "id": 4,
+        "title": "Contact List",
+        "description": "Through the creation of a contact list, we consolidate the basic concepts of Angular such as components, directives, modules, services, forms, routes, http requests and RxJS.",
+        "main_technologies": [
+            "Angular"
+        ],
+        "tags": [
+            "Components",
+            "Models",
+            "Directives",
+            "Reactive Forms",
+            "Template Driven Forms",
+            "Services",
+            "Modules",
+            "Validations",
+            "Lazy Loading",
+            "Guards",
+            "Error handling",
+            "Http Requests",
+            "Upload Files",
+            "Interceptors",
+            "RxJS Operators"
+        ],
+        "img_dest": "/assets/images/projects/contact-list1.png",
+        "banner": "/assets/images/projects/contact-list1.png",
+        "imgs": [
+            "/assets/images/projects/contact-list2.png",
+            "/assets/images/projects/contact-list4.png",
+            "/assets/images/projects/contact-list5.png",
+            "/assets/images/projects/contact-list3.png"
+        ],
+        "year": "2020",
+        "course": "Bundle Angular Pro · Enrique Oriol",
+        "categories": [
+            "mini-apps",
+            "all"
+        ],
+        "links": {
+            "web_link": "https://julius86jjb.github.io/contactApp-2019-CursoEnriqueOriol/",
+            "github": "https://github.com/julius86jjb/contactApp-2019-CursoEnriqueOriol"
+        }
+    },
+    {
+        "id": 5,
+        "title": "Admin Dashboard Hospitals",
+        "description": "From an administrative template, we created a mean stack application where through a dashboard, we manage users, doctors and hospitals.",
+        "main_technologies": [
+            "Angular",
+            "MongoDB",
+            "NodeJS",
+            "Express"
+        ],
+        "tags": [
+            "MEAN Stack",
+            "Google Signin",
+            "File Upload",
+            "Lazyload",
+            "GIT",
+            "RESTFul API",
+            "CORS",
+            "Authentication Handling",
+            "User Roles",
+            "Real-Time Forms Validations",
+            "Pipes",
+            "Guards",
+            "Pagination",
+            "Environments",
+            "CRUD",
+            "JWT",
+            "Interfaces",
+            "SweetAlert",
+            "Http Headers",
+            "Error handling",
+            "Search Engine",
+            "Deployment",
+            "MongoAltas"
+        ],
+        "img_dest": "/assets/images/projects/mean2019-1.png",
+        "banner": "/assets/images/projects/mean2019-1.png",
+        "imgs": [
+            "/assets/images/projects/mean2019-5.png",
+            "/assets/images/projects/mean2019-2.png",
+            "/assets/images/projects/mean2019-3.png",
+            "/assets/images/projects/mean2019-4.png",
+            "/assets/images/projects/mean2019-6.png"
+        ],
+        "year": "2019",
+        "categories": [
+            "own-applications",
+            "all"
+        ],
+        "links": {
+            "web_link": "https://mean-stack-2019.netlify.app/",
+            "github": "https://github.com/julius86jjb/adminpro2",
+            "github_backend": "https://github.com/julius86jjb/backend-adminpro"
+        }
+    },
+    {
+        "id": 6,
+        "title": "Country SPA",
+        "description": "We created a single page application (SPA) to connect to a famous API called REST Countries and perform searches based on capitals and regions.",
+        "main_technologies": [
+            "Angular"
+        ],
+        "tags": [
+            "Single Page Aplication",
+            "Routes",
+            "RouterLink",
+            "Modules",
+            "Lazy Loading",
+            "Specialized components",
+            "DebounceTime",
+            "Inputs",
+            "SwitchMaps",
+            "API consumption",
+            "Data typing",
+            "Application menu",
+            "LocalStorage",
+            "Components reuse",
+            "HTTP request optimizations"
+        ],
+        "img_dest": "/assets/images/projects/restcountry1.png",
+        "banner": "/assets/images/projects/restcountry1.png",
+        "imgs": [
+            "/assets/images/projects/restcountry2.png",
+            "/assets/images/projects/restcountry3.png"
+        ],
+        "year": "2023",
+        "course": "Angular: De cero a experto: Edición 2023 - Fernando Herrera",
+        "categories": [
+            "mini-apps",
+            "all"
+        ],
+        "links": {
+            "web_link": "https://julius86jjb.github.io/Angular2023FH-04-countryApp",
+            "github": "https://github.com/julius86jjb/Angular2023FH-04-countryApp"
+        }
+    },
+    {
+        "id": 7,
+        "title": "Forms App",
+        "description": "In this mini-application developed in the course, we deepen in the reactive forms, from the different types of possible fields to synchronous and asynchronous validations.",
+        "main_technologies": [
+            "Angular"
+        ],
+        "tags": [
+            "Reactive Forms",
+            "Lazyload and related tasks",
+            "Angular's own validations",
+            "Custom validations",
+            "Asynchronous validations",
+            "Arrangements and nested objects",
+            "FormBuilder",
+            "FormGroup",
+            "FormArray"
+        ],
+        "img_dest": "/assets/images/projects/forms1.png",
+        "banner": "/assets/images/projects/forms1.png",
+        "imgs": [
+            "/assets/images/projects/forms2.png",
+            "/assets/images/projects/forms3.png",
+            "/assets/images/projects/forms4.png"
+        ],
+        "year": "2023",
+        "course": "Angular: De cero a experto: Edición 2023 - Fernando Herrera",
+        "categories": [
+            "mini-apps",
+            "all"
+        ],
+        "links": {
+            "web_link": "https://julius86jjb.github.io/Angular2023FH-07-FormsApp",
+            "github": "https://github.com/julius86jjb/Angular2023FH-07-FormsApp"
+        }
+    },
+    {
+        "id": 8,
+        "title": "Heroes CRUD",
+        "description": "Starting from a fake Json server in the cloud, we made a CRUD implemented in a template created with Angular Material",
+        "main_technologies": [
+            "Angular"
+        ],
+        "tags": [
+            "CRUD",
+            "Angular Material",
+            "Child Routes",
+            "LazyLoad",
+            "Interfaces and typing",
+            "Custom Pipes",
+            "Environment variables",
+            "AngularMaterial autocomplete",
+            "HTTP requests",
+            "JSON-Server",
+            "Prime Flex",
+            "Pure and impure pipes",
+            "Snacks",
+            "Dialogs",
+            "Injection of services manually"
+        ],
+        "img_dest": "/assets/images/projects/heroes1.png",
+        "banner": "/assets/images/projects/heroes1.png",
+        "imgs": [
+            "/assets/images/projects/heroes2.png",
+            "/assets/images/projects/heroes3.png",
+            "/assets/images/projects/heroes4.png",
+            "/assets/images/projects/heroes5.png",
+            "/assets/images/projects/heroes6.png",
+            "/assets/images/projects/heroes8.png"
+        ],
+        "year": "2023",
+        "course": "Angular: De cero a experto: Edición 2023 - Fernando Herrera",
+        "categories": [
+            "mini-apps",
+            "all"
+        ],
+        "links": {
+            "web_link": "https://julius86jjb.github.io/Angular2023FH-06-HeroesApp",
+            "github": "https://github.com/julius86jjb/Angular2023FH-06-HeroesApp"
+        }
+    },
+    {
+        "id": 9,
+        "title": "Dynamic Selectors",
+        "description": "Mini exercise in which we create three nested dynamic selects from http requests to RestCountries API to deepen in reactive programming with RxJS and its operators.",
+        "main_technologies": [
+            "Angular"
+        ],
+        "tags": [
+            "Nested selectors",
+            "Filling selectors from HTTP requests",
+            "Chaining of RXJS operators",
+            "map, tap, switchMap, filter, combineLatest "
+        ],
+        "img_dest": "/assets/images/projects/selectors1.png",
+        "banner": "/assets/images/projects/selectors1.png",
+        "imgs": [
+            "/assets/images/projects/selectors2.png",
+            "/assets/images/projects/selectors3.png",
+            "/assets/images/projects/selectors4.png"
+        ],
+        "year": "2023",
+        "course": "Angular: De cero a experto: Edición 2023 - Fernando Herrera",
+        "categories": [
+            "mini-apps",
+            "all"
+        ],
+        "links": {
+            "web_link": "https://julius86jjb.github.io/Angular2023FH-08-Selectores",
+            "github": "https://github.com/julius86jjb/Angular2023FH-08-Selectores"
+        }
+    },
+    {
+        "id": 10,
+        "title": "MapBox App",
+        "description": "In this mini application we integrate the external MapBox library to work with maps in Angular. Bookmarks, listeners, zoom, etc...",
+        "main_technologies": [
+            "Angular"
+        ],
+        "tags": [
+            "Handling of libraries written in JavaScript in TypeScript",
+            "Use of Maps based on Mapbox (the API is similar to Google Maps)",
+            "Markers",
+            "Events",
+            "FlyTo",
+            "Geographic coordinates",
+            "Components for map re-use",
+            "Keep objects persistently",
+            "@types",
+            "Zoom",
+            "Range"
+        ],
+        "img_dest": "/assets/images/projects/map1.png",
+        "banner": "/assets/images/projects/map1.png",
+        "imgs": [
+            "/assets/images/projects/map2.png",
+            "/assets/images/projects/map3.png"
+        ],
+        "year": "2023",
+        "course": "Angular: De cero a experto: Edición 2023 - Fernando Herrera",
+        "categories": [
+            "mini-apps",
+            "all"
+        ],
+        "links": {
+            "web_link": "https://julius86jjb.github.io/Angular2023FH-10-MapBox-plus-Standalone/",
+            "github": "https://github.com/julius86jjb/Angular2023FH-10-MapBox-plus-Standalone"
+        }
+    },
+    {
+        "id": 11,
+        "title": "Angular Ecommerce",
+        "description": "From an HTML template, i build a basic ecommerce application using 'fakestoreapi.com' API and checkout payment with Stripe",
+        "main_technologies": [
+            "Angular",
+            "NodeJS",
+            "Express"
+        ],
+        "tags": [
+            "Express Server",
+            "GIT",
+            "CORS",
+            "Interfaces",
+            "SweetAlert",
+            "Search Engine",
+            "Deployment",
+            "Netlify",
+            "Render",
+            "Fake Store API",
+            "HTTP requests",
+            "Bootstrap",
+            "RxJS Operators",
+            "LocalStorage",
+            "API consumption",
+            "Clean Architecture - Clean Code",
+            "Custom Pipes"
+        ],
+        "img_dest": "/assets/images/projects/ecommerce1.png",
+        "banner": "/assets/images/projects/ecommerce1.png",
+        "imgs": [
+            "/assets/images/projects/ecommerce2.png",
+            "/assets/images/projects/ecommerce3.png",
+            "/assets/images/projects/ecommerce4.png"
+        ],
+        "year": "2024",
+        "categories": [
+            "own-applications",
+            "all"
+        ],
+        "links": {
+            "backend_link": "https://ecommerce-express-server-hkqh.onrender.com/",
+            "web_link": "https://ecommerce-angular-front.netlify.app/",
+            "github": "https://github.com/julius86jjb/ecommerce-frontend",
+            "github_backend": "https://github.com/julius86jjb/ecommerce-express-server"
+        }
+    },
+    {
+        "id": 12,
+        "title": "Teslo Shop API",
+        "description": "Creation of a RESTful APi based on an e-commerce. Authorization and authentication of users, file management, seeds, CRUD of products and many more.",
+        "main_technologies": [
+            "NestJS",
+            "Postgres"
+        ],
+        "tags": [
+            "NestJS",
+            "RESTFul API",
+            "Authorization",
+            "Authentication",
+            "JWT",
+            "User Roles",
+            "TypeORM",
+            "Seeds",
+            "File Upload",
+            "Custom Decorators",
+            "Queries",
+            "Pagination",
+            "Environments",
+            "CRUD",
+            "DTO",
+            "Entities",
+            "Interfaces",
+            "Http Headers",
+            "Error handling",
+            "Documentation OpenAPI",
+            "Render Deployment",
+            "Docker",
+            "Postman",
+            "TablePlus"
+        ],
+        "img_dest": "/assets/images/projects/teslo-shop1.png",
+        "banner": "/assets/images/projects/teslo-shop1.png",
+        "imgs": [
+            "/assets/images/projects/teslo-shop2.png",
+            "/assets/images/projects/teslo-shop3.jpg",
+            "/assets/images/projects/teslo-shop4.jpg"
+        ],
+        "year": "2024",
+        "categories": [
+            "mini-apps",
+            "all"
+        ],
+        "course": "NestJS: Desarrollo backend escalable con Node - Fernando Herrera",
+        "links": {
+            "github_backend": "https://github.com/julius86jjb/TesloShop-Nest",
+            "backend_link": "https://tesloshop-nest.onrender.com",
+            "documentation_api": "https://tesloshop-nest.onrender.com/api"
+        }
+    },
+    {
+        "id": 13,
+        "title": "AngularGPT",
+        "description": "Through a backend developed in NestJS, we make requests to the OpenAI API and display the results in a frontend developed in Angular.",
+        "main_technologies": [
+            "Angular",
+            "NestJS",
+            "Express"
+        ],
+        "tags": [
+            "OpenAI API",
+            "Prompts",
+            "Fetch API",
+            "Streams",
+            "Readers",
+            "Use Cases",
+            "Audio Files",
+            "TailwindCSS",
+            "File Upload",
+            "Prompts",
+            "Signals",
+            "Canvas",
+            "Helpers",
+            "Routes",
+            "Observables",
+            "Environments",
+            "DTO",
+            "Clean Architecture - Clean Code",
+            "SOLID - DRY",
+            "Interfaces",
+            "Http Headers",
+            "Error handling"
+        ],
+        "img_dest": "/assets/images/projects/angulargpt7.png",
+        "banner": "/assets/images/projects/angulargpt7.png",
+        "imgs": [
+            "/assets/images/projects/angulargpt2.png",
+            "/assets/images/projects/angulargpt3.png",
+            "/assets/images/projects/angulargpt4.png",
+            "/assets/images/projects/angulargpt5.png",
+            "/assets/images/projects/angulargpt6.png"
+        ],
+        "year": "2024",
+        "categories": [
+            "mini-apps",
+            "all"
+        ],
+        "links": {
+            "backend_link": "https://nest-openai-o8jo.onrender.com",
+            "web_link": "https://openai-angular.netlify.app/",
+            "github": "https://github.com/julius86jjb/OpenAI-angular",
+            "github_backend": "https://github.com/julius86jjb/nest-openai"
+        }
+    }
+]
