@@ -1,0 +1,92 @@
+﻿<div class="container">
+    <div class="flex items-center justify-between py-5 lg:py-0">
+        <a routerLink="/"><img src="/assets/images/personal-portfolio/logo-julio2.webp" alt="logo" /></a>
+        <div class="flex items-center">
+            <div (click)="toggleMenu()" class="overlay fixed inset-0 z-[51] bg-black/60 lg:hidden"
+                [ngClass]="{ hidden: !showMenu }"></div>
+            <div class="menus" [ngClass]="{'overflow-y-auto ltr:!right-0 rtl:!left-0': showMenu }">
+                <div class="border-b border-gray/10 ltr:text-right rtl:text-left lg:hidden">
+                    <button (click)="toggleMenu()" type="button" class="p-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="h-6 w-6 text-black dark:text-white">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+                <ul (click)="showMenu = false">
+                    <li>
+                        <a class="pointer" (click)="goSection('about-me')" routerLinkActive="active"> About Me </a>
+                    </li>
+                    <li>
+                        <a class="pointer" (click)="goSection('technologies')" routerLinkActive="active">
+                            Technologies & Skills</a>
+                    </li>
+                    <li>
+                        <a class="pointer" (click)="goSection('education')" routerLinkActive="active">
+                            Education </a>
+                    </li>
+                    <li>
+                        <a class="pointer" (click)="goSection('portfolio')" routerLinkActive="active"> Portfolio </a>
+                    </li>
+                    <li>
+                        <a class="pointer" (click)="goSection('contact')" routerLinkActive="active"> Contact </a>
+                    </li>
+                    <li
+                        class="relative hidden items-center before:absolute before:top-1/2 before:h-[30px] before:w-[2px] before:-translate-y-1/2 before:bg-gray/30 ltr:pl-9 ltr:before:-left-[2px] rtl:pr-9 rtl:before:-right-[2px] lg:inline-flex">
+
+                    </li>
+                </ul>
+            </div>
+            <ul class="flex items-center gap-5 ltr:pr-2 ltr:lg:pl-1 ltr:lg:pr-0">
+                <li>
+                    <a href="https://www.linkedin.com/in/julio-jimenez-6a780b1b0/" target="_blank">
+                        <!-- <svg width="10" height="20" viewBox="0 0 10 20" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="transition hover:scale-110 hover:text-secondary">
+                            <path
+                                d="M8.0733 3.29509H9.88498V0.139742C9.57242 0.0967442 8.49748 0 7.2456 0C4.6335 0 2.84415 1.643 2.84415 4.66274V7.44186H-0.0383301V10.9693H2.84415V19.845H6.37821V10.9701H9.1441L9.58317 7.44269H6.37738V5.01251C6.37821 3.99297 6.65273 3.29509 8.0733 3.29509Z"
+                                fill="currentColor" />
+                        </svg> -->
+                        <svg xmlns="http://www.w3.org/2000/svg" height="22" viewBox="0 0 72 72" width="22" fill="none"
+                            class="transition hover:scale-110 hover:text-secondary">
+
+                            <g fill="none" fill-rule="evenodd">
+                                <path
+                                    d="M8,72 L64,72 C68.418278,72 72,68.418278 72,64 L72,8 C72,3.581722 68.418278,-8.11624501e-16 64,0 L8,0 C3.581722,8.11624501e-16 -5.41083001e-16,3.581722 0,8 L0,64 C5.41083001e-16,68.418278 3.581722,72 8,72 Z"
+                                    fill="currentColor" />
+                                <path
+                                    d="M62,62 L51.315625,62 L51.315625,43.8021149 C51.315625,38.8127542 49.4197917,36.0245323 45.4707031,36.0245323 C41.1746094,36.0245323 38.9300781,38.9261103 38.9300781,43.8021149 L38.9300781,62 L28.6333333,62 L28.6333333,27.3333333 L38.9300781,27.3333333 L38.9300781,32.0029283 C38.9300781,32.0029283 42.0260417,26.2742151 49.3825521,26.2742151 C56.7356771,26.2742151 62,30.7644705 62,40.051212 L62,62 Z M16.349349,22.7940133 C12.8420573,22.7940133 10,19.9296567 10,16.3970067 C10,12.8643566 12.8420573,10 16.349349,10 C19.8566406,10 22.6970052,12.8643566 22.6970052,16.3970067 C22.6970052,19.9296567 19.8566406,22.7940133 16.349349,22.7940133 Z M11.0325521,62 L21.769401,62 L21.769401,27.3333333 L11.0325521,27.3333333 L11.0325521,62 Z"
+                                    fill="#081120" />
+                            </g>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/julius86jjb" target="_blank">
+                        <svg _ngcontent-lwf-c28="" xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+                            viewBox="0 0 24 24" fill="currentColor" class="transition hover:scale-110 hover:text-secondary">
+                            <path _ngcontent-lwf-c28=""
+                                d="M12 0a12 12 0 1 0 0 24 12 12 0 0 0 0-24zm3.163 21.783h-.093a.513.513 0 0 1-.382-.14.513.513 0 0 1-.14-.372v-1.406c.006-.467.01-.94.01-1.416a3.693 3.693 0 0 0-.151-1.028 1.832 1.832 0 0 0-.542-.875 8.014 8.014 0 0 0 2.038-.471 4.051 4.051 0 0 0 1.466-.964c.407-.427.71-.943.885-1.506a6.77 6.77 0 0 0 .3-2.13 4.138 4.138 0 0 0-.26-1.476 3.892 3.892 0 0 0-.795-1.284 2.81 2.81 0 0 0 .162-.582c.033-.2.05-.402.05-.604 0-.26-.03-.52-.09-.773a5.309 5.309 0 0 0-.221-.763.293.293 0 0 0-.111-.02h-.11c-.23.002-.456.04-.674.111a5.34 5.34 0 0 0-.703.26 6.503 6.503 0 0 0-.661.343c-.215.127-.405.249-.573.362a9.578 9.578 0 0 0-5.143 0 13.507 13.507 0 0 0-.572-.362 6.022 6.022 0 0 0-.672-.342 4.516 4.516 0 0 0-.705-.261 2.203 2.203 0 0 0-.662-.111h-.11a.29.29 0 0 0-.11.02 5.844 5.844 0 0 0-.23.763c-.054.254-.08.513-.081.773 0 .202.017.404.051.604.033.199.086.394.16.582A3.888 3.888 0 0 0 5.702 10a4.142 4.142 0 0 0-.263 1.476 6.871 6.871 0 0 0 .292 2.12c.181.563.483 1.08.884 1.516.415.422.915.75 1.466.964.653.25 1.337.41 2.033.476a1.828 1.828 0 0 0-.452.633 2.99 2.99 0 0 0-.2.744 2.754 2.754 0 0 1-1.175.27 1.788 1.788 0 0 1-1.065-.3 2.904 2.904 0 0 1-.752-.824 3.1 3.1 0 0 0-.292-.382 2.693 2.693 0 0 0-.372-.343 1.841 1.841 0 0 0-.432-.24 1.2 1.2 0 0 0-.481-.101c-.04.001-.08.005-.12.01a.649.649 0 0 0-.162.02.408.408 0 0 0-.13.06.116.116 0 0 0-.06.1.33.33 0 0 0 .14.242c.093.074.17.131.232.171l.03.021c.133.103.261.214.382.333.112.098.213.209.3.33.09.119.168.246.231.381.073.134.15.288.231.463.188.474.522.875.954 1.145.453.243.961.364 1.476.351.174 0 .349-.01.522-.03.172-.028.343-.057.515-.091v1.743a.5.5 0 0 1-.533.521h-.062a10.286 10.286 0 1 1 6.324 0v.005z">
+                            </path>
+                        </svg>
+                    </a>
+                </li>
+
+            </ul>
+            <button type="button" class="flex h-10 w-10 items-center justify-center rounded-full bg-primary lg:hidden"
+                (click)="toggleMenu()">
+                <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="text-white">
+                    <path
+                        d="M2 15H11C11.552 15 12 15.447 12 16C12 16.553 11.552 17 11 17H2C1.448 17 1 16.553 1 16C1 15.447 1.448 15 2 15Z"
+                        fill="currentColor" />
+                    <path
+                        d="M2 8H20C20.552 8 21 8.447 21 9C21 9.553 20.552 10 20 10H2C1.448 10 1 9.553 1 9C1 8.447 1.448 8 2 8Z"
+                        fill="currentColor" />
+                    <path
+                        d="M21 2C21 1.447 20.552 1 20 1H7C6.448 1 6 1.447 6 2C6 2.553 6.448 3 7 3H20C20.552 3 21 2.553 21 2Z"
+                        fill="currentColor" />
+                </svg>
+            </button>
+        </div>
+    </div>
+</div>

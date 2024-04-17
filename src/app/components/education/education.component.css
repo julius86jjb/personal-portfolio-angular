@@ -1,0 +1,10 @@
+.text-emerald-600{
+    color: rgb(5 150 105);
+}
+.bg-emerald-100{
+    background-color: rgb(209 250 229);
+}
+
+rounded-full{
+    border-radius: 9999px;
+}
