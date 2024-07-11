@@ -12,9 +12,9 @@
                         <p
                             class="relative mt-7 font-medium text-[#BBC0D0] before:absolute before:top-0 before:h-full before:w-1 before:bg-primary ltr:pl-8 ltr:before:left-0 rtl:pr-8 rtl:before:right-0">
                             {{project?.description}}<br>
-                            <!-- <span class="text-secondary mt-1" *ngIf="project?.links?.web_link"><a href="{{project?.links?.github}}" target="_blank">Frontend · </a></span> -->
+                            <span class="text-secondary mt-1" *ngIf="project?.links?.web_link"><a href="{{project?.links?.web_link}}" target="_blank">Frontend · </a></span>
                             <span class="text-secondary mt-1" *ngIf="project?.links?.github"><a href="{{project?.links?.github}}" target="_blank">GitHub Frontend · </a></span>
-                            <!-- <span class="text-secondary mt-1" *ngIf="project?.links?.backend_link"><a href="{{project?.links?.backend_link}}" target="_blank">Backend · </a></span> -->
+                            <span class="text-secondary mt-1" *ngIf="project?.links?.backend_link"><a href="{{project?.links?.backend_link}}" target="_blank">Backend · </a></span>
                             <span class="text-secondary mt-1" *ngIf="project?.links?.github_backend"><a href="{{project?.links?.github_backend}}" target="_blank">GitHub Backend · </a></span>
                             <span class="text-secondary mt-1" *ngIf="project?.links?.documentation_api"><a href="{{project?.links?.documentation_api}}" target="_blank">Documentation API</a></span>
 
