@@ -43,13 +43,9 @@ export class HeaderComponent {
     }
 
     goSection(section: string) {
-        console.log(section)
-
         if (this.activatedRoute.snapshot.firstChild?.url.length !== 0) {
             this.router.navigate(['']).finally(() => {
-                console.log('entra')
                 const element = document.getElementById(section);
-                console.log(element)
                 if (element) element.scrollIntoView({ behavior: 'smooth', block: 'start' })
             })
 

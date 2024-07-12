@@ -561,10 +561,64 @@
             "all"
         ],
         "links": {
-            "backend_link": "https://nest-openai-o8jo.onrender.com",
-            "web_link": "https://openai-angular.netlify.app/",
             "github": "https://github.com/julius86jjb/OpenAI-angular",
             "github_backend": "https://github.com/julius86jjb/nest-openai"
+        }
+    },
+    {
+        "id": 14,
+        "title": "Social Book Network",
+        "description": "Clone of a social network implementing the basic functions such as creating posts, likes, comments, notifications, users, etc... Backend implemented through json-server deployed on a real server and images stored in the cloud with Firebase.",
+        "main_technologies": [
+            "Angular",
+            "NodeJS"
+        ],
+        "tags": [
+            "Angular 17",
+            "Firebase",
+            "JSON-Server",
+            "TailwindCSS",
+            "File Upload",
+            "Signals",
+            "HTTP requests",
+            "LocalStorage",
+            "RxJS",
+            "Defer Views/Blocks",
+            "New Control Flow",
+            "Reactive Forms",
+            "Clean Architecture - Clean Code",
+            "SOLID - DRY",
+            "Guards",
+            "Pipes",
+            "Lazy Loading",
+            "Validators",
+            "Emojis",
+            "Notifications",
+            "uuidv4",
+            "Single Page Aplication",
+            "Render.com",
+            "Netlify.app"
+        ],
+        "img_dest": "../../assets/images/projects/socialbookdest.png",
+        "banner": "../../assets/images/projects/socialbookdest.png",
+        "imgs": [
+            "../../assets/images/projects/social1.png",
+            "../../assets/images/projects/social2.png",
+            "../../assets/images/projects/social3.png",
+            "../../assets/images/projects/social4.png",
+            "../../assets/images/projects/social6.png"
+        ],
+        "year": "2024",
+        "categories": [
+            "latest",
+            "own-applications",
+            "all"
+        ],
+        "links": {
+            "backend_link": "https://social-network-json-server.onrender.com",
+            "web_link": "https://social-book-network.netlify.app/",
+            "github": "https://github.com/julius86jjb/social-book-network",
+            "github_backend": "https://github.com/julius86jjb/social-network-json-server"
         }
     }
 ]

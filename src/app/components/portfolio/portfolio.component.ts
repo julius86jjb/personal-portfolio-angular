@@ -35,7 +35,6 @@ export class PortfolioComponent implements OnInit {
     getProjects() {
         this.appService.getProjects()
             .subscribe((projects) => {
-                console.log(projects);
                 this.projects = projects;
             });
     }
