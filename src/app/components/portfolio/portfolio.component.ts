@@ -10,7 +10,7 @@ import { AppService } from 'src/app/service/app.service';
 })
 export class PortfolioComponent implements OnInit {
     storeData: any;
-    activeTab = 'all';
+    activeTab = 'latest';
 
     public projects: Project[] = [] ;
 

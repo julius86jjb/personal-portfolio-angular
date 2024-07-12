@@ -59,7 +59,7 @@
 
             </ul>
         </div>
-        <div class="projects mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div class="projects mt-10 grid gap-8 sm:grid-cols-2 " [ngClass]="activeTab === 'latest' ? 'lg:grid-cols-2 ' : 'lg:grid-cols-3'">
 
             <div *ngFor="let project of projects" class="project" [ngClass]="activeTab === 'all' || project.categories.includes(activeTab) ? 'block' : 'hidden'">
                 <div
