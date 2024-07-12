@@ -29,15 +29,6 @@
                         Last Project
                     </button>
                 </li>
-                <li class="filter" [ngClass]="{ active: activeTab === 'mini-apps' }">
-                    <button
-                        type="button"
-                        class="rounded-[10px] bg-gray/5 py-4 px-5 leading-5 transition hover:bg-secondary hover:text-white"
-                        (click)="activeTab = 'mini-apps'"
-                    >
-                        Mini Apps (Courses)
-                    </button>
-                </li>
                 <li class="filter" [ngClass]="{ active: activeTab === 'own-applications' }">
                     <button
                         type="button"
@@ -45,6 +36,15 @@
                         (click)="activeTab = 'own-applications'"
                     >
                         Own Applications
+                    </button>
+                </li>
+                <li class="filter" [ngClass]="{ active: activeTab === 'mini-apps' }">
+                    <button
+                        type="button"
+                        class="rounded-[10px] bg-gray/5 py-4 px-5 leading-5 transition hover:bg-secondary hover:text-white"
+                        (click)="activeTab = 'mini-apps'"
+                    >
+                        Mini Apps (Courses)
                     </button>
                 </li>
                 <li class="active filter" [ngClass]="{ active: activeTab === 'all' }">
