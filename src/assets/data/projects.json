@@ -508,9 +508,7 @@
         ],
         "course": "NestJS: Desarrollo backend escalable con Node - Fernando Herrera",
         "links": {
-            "github_backend": "https://github.com/julius86jjb/TesloShop-Nest",
-            "backend_link": "https://tesloshop-nest.onrender.com",
-            "documentation_api": "https://tesloshop-nest.onrender.com/api"
+            "github_backend": "https://github.com/julius86jjb/TesloShop-Nest"
         }
     },
     {
